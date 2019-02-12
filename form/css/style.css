@@ -138,8 +138,9 @@ body {
 input {
     font-size: 14px;
 }
+
 input::-webkit-input-placeholder {
-   color: rgb(187, 187, 187);
+    color: rgb(187, 187, 187);
 }
 
 input.name {
@@ -147,9 +148,8 @@ input.name {
     border-bottom: 1px solid orange;
     position: relative;
     border-color: orange;
-    margin-left: 10px;
     padding-left: 20px;
-    width: 95%;
+    width: 100%;
 }
 
 input.mail {
@@ -157,24 +157,22 @@ input.mail {
     border-bottom: 1px solid orange;
     position: relative;
     margin-bottom: 27px;
-    margin-left: 10px;
-    margin-left: 10px;
     padding-left: 20px;
-    width: 95%;
+    width: 100%;
 }
 
 input.number {
     border: none;
     position: relative;
     margin-bottom: 58px;
-    margin-left: 10px;
     padding-left: 20px;
     border-bottom: 1px solid orange;
-    width: 95%;
+    width: 100%;
 }
 
 .container {
     margin: 0 auto;
+    padding: 0 14px;
 }
 
 .section-discription {
