@@ -241,9 +241,6 @@ input.number {
     .close:after {
         background-color: rgb(255, 255, 255);
     }
-    .meter {
-        width: 650px;
-    }
     input.name {
         width: 67%;
     }
@@ -255,9 +252,6 @@ input.number {
     }
     .container {
         width: 650px;
-    }
-    .button-submit {
-        padding: 16px 190px;
     }
     body {
         background-color: #0f1a29;
