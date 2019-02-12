@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-main">
+        <button class="template__button close"></button>
+        <div class="container">
+            <div class="meter">
+                <p style="width: 80%" class=""></p>
+                <span class="text-bar">80% готово</span>
+            </div>
+            <p class="section-discription">Почти готово! Пожалуйста, заполните эту форму и нажмите кнопку ниже, чтобы участвовать в онлайн мастер-классе</p>
+            <form id="form" class="form-page" action="#">
+                <div class="input-wrapped">
+                    <p>Да, Я <span class="mod-text">(введите ваше имя)</span></p>
+                    <input class="input-text name" type="text" name="name" required placeholder="Снежана">
+                    <p class="input-text-description">хочу участвовать в Онлайн Мастер-Класс и получить PDF-список "Топ50 товаров из Китая", которые можно продать в СНГ с наценкой 300%"</p>
+                    <p>Вышлите мне доступ на <span class="mod-text">E-mail</span></p>
+                    <input class="input-text mail" type="email" name="email" required placeholder="example@mail.com">
+                    <p>Чтобы я 100% не забыл, пришлите мне смс напоминание на этот моб.тел. </p>
+                    <p><span class="mod-text">(введите номер)</span></p>
+                    <input class="input-text number" type="text" name="mobile" required placeholder="+79 000 000 00 00">
+                </div>
+                <div class="wrapper-submit">
+                    <button class="button-submit" type="submit">участвовать в мастер-классе</button>
+                </div>
+                <div class="wrap-info">
+                    <p class="additional-info">100% защита данных от 3-х лиц</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
