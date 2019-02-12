@@ -138,6 +138,9 @@ body {
 input {
     font-size: 14px;
 }
+input::-webkit-input-placeholder {
+   color: rgb(187, 187, 187);
+}
 
 input.name {
     border: none;
